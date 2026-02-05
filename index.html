@@ -134,6 +134,10 @@
       document.body.appendChild(script);
 
     </script>
+  <body>
+    <script>
+      if (!crossOriginIsolated) SharedArrayBuffer = ArrayBuffer;
+    </script>
   </body>
   
 </html>
